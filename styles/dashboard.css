@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#DashParent {
+    display: flex;
+    justify-content: space-between;
+    height: 900px
+}
+
+#DashParentChild_1 {
+    width: 20%;
+    background-color: rgb(255, 247, 136);
+    
+}
+
+#DashParentChild_2 {
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.877);
+}
+
+
+#DashParentChild_1_brand {
+    text-align: center;
+    background-color: rgb(0, 85, 100);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    padding: 1rem 0 1rem 0;
+    word-spacing: 2px;
+}
+
+
+#DashParentChild_2_prof {
+    text-align: center;
+
+    background-color: rgb(255, 247, 136);
+    color: rgb(0, 85, 100);
+
+    text-transform: uppercase;
+    padding: 1rem 0 1rem 0;
+    word-spacing: 2px;
+}
+
+
+
+.DashParentChild_1_list {
+    /* text-align: center; */
+    margin-bottom: 2rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: rgb(0, 85, 100);
+    cursor: pointer;
+    padding-left: 20%;
+    transition: all .1s ease-in-out;
+}
+
+.DashParentChild_1_list:hover  {
+    font-size: 1.5rem;
+}
+
+#flag1 {
+    margin-top: 3rem;
+    
+}
+
+
+
+input {
+    border: 0;
+   padding: 10px;
+   font-style: italic;
+}
+
+#From {
+    margin-bottom: 1rem;
+}
+
+#callender {
+    margin-top: 3rem;
+    padding: 5px 20px 5px 20px;
+    background-color: orange;
+    display: table-cell;
+    float: right;
+    align-items: center;
+    box-shadow: 0px 10px 10px gray;
+}
+
+#icon_call {
+    /* background-color: red; */
+    width: 40px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#spicific {
+    width: 15rem;
+    /* background-color:  rgb(116, 112, 112); */
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    word-spacing: .5rem;
+    font-style: italic;
+    /* border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px; */
+    margin-bottom: 10px;
+}
+
+.input_cal {
+    width: 15rem;
+    /* background-color: rgb(116, 112, 112); */
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+}
+
+
+#MyTableHolder{
+    background-color: rgba(224, 155, 98, 0.466);
+    height: 10rem;
+    padding-top: 10px;
+}
+
+
+
+.dash_pic {
+    width: 15%;
+    height: 100%;
+    margin-left: 10rem;
+}
+
+
+.Transaction_Holder {
+    height: 33rem;
+    /* background-color: darkgreen; */
+    margin-top: 10rem;
+    padding: 0px 30px 0px 30px;
+    transition: all 1s ease;
+    opacity: 0;
+    display: none;
+}
+
+.show_trans {
+    display: block;
+}
+
+.show_opc {
+    opacity: 1;
+}
+
+label input {
+    border: 1px solid rgb(34, 25, 25);
+}
+
+#transations_table {
+    border: 1px solid black;
+   
+}
+
+
+
+a {
+    text-decoration: none;
+    color: rgb(0, 85, 100);
+}
+
+
+svg {
+    margin-right: 5px;
+}

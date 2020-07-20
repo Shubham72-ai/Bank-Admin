@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0px 0rem 0px 0px ;
+}
+
+.error{
+    color:rgba(255, 22, 22, 0.787);
+    font-weight: bold;
+  }
+
+
+  #myContainer {
+    width: 20rem;
+    background-color: rgba(42, 126, 165, 0.39);
+    padding: 5rem 2rem 5rem 2rem;
+    float: right;
+    color: white;
+    margin-top: 4rem;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.507);
+    border-bottom-left-radius: 24px;
+    border-top-right-radius: 24px;
+  }
+
+
+  .image_holder {
+    background-color: rgba(0, 140, 255, 0.24);
+    height: 100vh;
+  }
+
+
+.real_images {
+  height: 15rem;
+  width: 800px;
+  position: relative;
+  top: 40%;
+  left: 40%;
+  transform: translate(-40%,-40%);
+  /* background-color: antiquewhite; */
+}
+
+#login_card {
+  height: 100%;
+  width: 90%;
+  margin-left: 10px;
+}

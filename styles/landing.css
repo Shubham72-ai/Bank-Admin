@@ -1,0 +1,133 @@
+body {
+   margin: 0;
+   padding: 0 5px 0 5px;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+
+header {
+   height: 8rem;
+   display: flex;
+   justify-content: space-between;
+   border-bottom: 1px solid rgb(223, 223, 224);
+   padding-left: 15px;
+   padding-right: 15px;
+}
+
+header #brand {
+   width: 9rem;
+   height: 3rem;
+   margin-top: 2.5rem;
+}
+
+
+header #search {
+   width: 54rem;
+   height: 3rem;
+   margin-top: 2.5rem;
+}
+
+ul{
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   
+}
+
+.font {
+   font-size: 1.2rem;
+   line-height: 3rem;
+   margin-right: 3rem;
+   color: rgb(110, 109, 109);
+   margin-top: 4px;
+}
+
+.font:nth-child(1) {
+   margin-left: -1rem;
+}
+.font:hover {
+   color: rgb(8, 8, 241);
+   cursor: pointer;
+}
+
+#scbox {
+   line-height: 3rem;
+   margin-left: auto;
+}
+
+
+#scbox input {
+   padding: 5px 10px 5px 10px;
+}
+
+#go {
+   padding: 5px;
+}
+/* end of header */
+
+
+#header2 {
+margin-top: 10px;
+padding-left: 7rem;
+padding-right: 7rem;
+}
+
+.mySlides{
+   height: 100%;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+   width: 30%;
+   height: 10rem;
+   background-color: white;
+ }
+ 
+ 
+ 
+ 
+ .active {
+   background-color: #717171;
+ }
+ 
+ /* Fading animation */
+ .fade {
+   -webkit-animation-name: fade;
+   -webkit-animation-duration: 1.5s;
+   animation-name: fade;
+   animation-duration: 1.5s;
+ }
+ 
+ @-webkit-keyframes fade {
+   from {opacity: .4} 
+   to {opacity: 1}
+ }
+ 
+ @keyframes fade {
+   from {opacity: .4} 
+   to {opacity: 1}
+ }
+ 
+ /* endof animation */
+
+#child1_OfHeader2 {
+display: flex;
+height: 10rem;
+justify-content: space-between;
+background-color: rgb(84, 171, 197);
+color: white;
+}
+
+
+#impBull{
+width: 55%;
+}
+
+#impBull_h {
+margin-top: 20px;
+margin-bottom: 5px;
+font-weight: bolder;
+}
+
